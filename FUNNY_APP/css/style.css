@@ -1,0 +1,87 @@
+body {
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2 {
+    color: greenyellow;
+    font-size: 100px;
+    text-align: center;
+    margin: 0px 0px;
+    padding:  30px;
+}
+
+h1 {
+    color: greenyellow;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px 0px;
+}
+
+#login-form {
+    margin: 0px 0px;
+    text-align: center;
+}
+
+#login-form input{
+    text-align: center;
+    padding:  5px 5px;
+    background-color: black;
+    color:greenyellow
+}
+
+input::placeholder {
+    color: greenyellow;
+    background-color: black;
+    font-style: italic;
+}
+
+button {
+    background-color: black;
+    color: greenyellow;
+}
+
+#todo-form {
+    text-align: center;
+    padding:  50px
+}
+
+#todo-form input{
+    background-color: black;
+    color: greenyellow;
+    width: 230px;
+    height: 32px;
+    text-align: center;
+}
+
+#todo-list{
+    list-style:none;
+    padding: 1px;
+}
+
+#todo-span {
+    padding-right: 12px;
+}
+
+li {
+    text-align: center;
+    marker: none;
+    color: greenyellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#weather {
+    color: whitesmoke;
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
